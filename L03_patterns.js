@@ -1,4 +1,4 @@
-let spacing = 50;
+// let spacing = 50;
 //let colourValue = 0;
 
 function setup() {
@@ -48,5 +48,5 @@ function draw() {
   // rect(0, 100, width, 400);
   // circle(width / 2, height / 2, 100);
 
-  
+
 }
