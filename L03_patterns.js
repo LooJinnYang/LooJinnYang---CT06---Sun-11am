@@ -1,4 +1,4 @@
-let 
+let spacing = 50;
 
 function setup() {
     createCanvas(1200, 800);
