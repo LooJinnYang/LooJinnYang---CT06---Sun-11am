@@ -46,5 +46,5 @@ function draw() {
 
 
   rect(0, 50, Width, )
-  circle()
+  circle(width / 2, hi)
 }
