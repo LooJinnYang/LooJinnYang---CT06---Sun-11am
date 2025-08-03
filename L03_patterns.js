@@ -29,7 +29,9 @@ for(let i = 0; i < 5; i++){
   if(i%2 === 0 ) {
     fill(0);
   }
-  else
+  else {
+    fill()
+  }
   circle(spacing + i * spacing, 200, 40)
   // colourValue += 1;
 }
