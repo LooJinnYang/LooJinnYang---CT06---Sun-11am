@@ -24,18 +24,18 @@ function draw() {
 
 // }
 
-for(let i = 0; i < 5; i++){
-  // fill(colourValue % 2);
-  if(i%2 === 0 ) {
-    fill(0);
-  }
-  else {
-    fill(255);
-  }
-  circle(spacing + i * spacing, 200, 40);
-  rect(spacing + spacing * i, 250, 50, 50);
+// for(let i = 0; i < 5; i++){
+//   // fill(colourValue % 2);
+//   if(i%2 === 0 ) {
+//     fill(0);
+//   }
+//   else {
+//     fill(255);
+//   }
+//   circle(spacing + i * spacing, 200, 40);
+//   rect(spacing + spacing * i, 250, 50, 50);
   // colourValue += 1;
-}
+
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
