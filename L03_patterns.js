@@ -1,5 +1,5 @@
 let spacing = 50;
-let colourValue = 0;
+//let colourValue = 0;
 
 function setup() {
     createCanvas(1200, 800);
@@ -32,8 +32,8 @@ for(let i = 0; i < 5; i++){
   else {
     fill(255);
   }
-  circle(spacing + i * spacing, 200, 40)
-  rect(spacing + spacing * i, 250, 50, 50)
+  circle(spacing + i * spacing, 200, 40);
+  rect(spacing + spacing * i, 250, 50, 50);
   // colourValue += 1;
 }
   // Task 1: Colour Gradient
