@@ -33,6 +33,7 @@ for(let i = 0; i < 5; i++){
     fill(255);
   }
   circle(spacing + i * spacing, 200, 40)
+  Rect()
   // colourValue += 1;
 }
   // Task 1: Colour Gradient
