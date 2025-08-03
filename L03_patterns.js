@@ -2,7 +2,7 @@ let spacing = 50;
 //let colourValue = 0;
 
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(600, 600);
     background(220);
     // noLoop(); // Stops continuous drawing
   }
