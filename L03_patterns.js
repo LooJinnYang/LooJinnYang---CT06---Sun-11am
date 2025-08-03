@@ -48,7 +48,8 @@ function draw() {
   // rect(0, 100, width, 400);
   // circle(width / 2, height / 2, 100);
 
-  
+  let startX = (200 - 150)
+
 for (let i = 0; i < 5; i++){
 let x = startX + 1 * 30;
 
