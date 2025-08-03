@@ -25,7 +25,7 @@ function draw() {
 // }
 
 for(let i = 0; i < 5; i++){
-  fill(0,0, i *spacing)
+  fill(colourValue%255)
   circle(spacing + i * spacing, 200, 40)
 
 }
