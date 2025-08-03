@@ -35,7 +35,7 @@ function draw() {
 //   circle(spacing + i * spacing, 200, 40);
 //   rect(spacing + spacing * i, 250, 50, 50);
   // colourValue += 1;
-
+//   }
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
@@ -43,4 +43,7 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
+
+
+  
 }
