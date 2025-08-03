@@ -2,7 +2,7 @@ let spacing = 50;
 //let colourValue = 0;
 
 function setup() {
-    createCanvas(1200, 800);
+    createCanvas(600, 400);
     background(220);
     // noLoop(); // Stops continuous drawing
   }
@@ -45,6 +45,6 @@ function draw() {
   // Task 4: Grid of Circles
 
 
-  rect(0, 100, width, )
+  rect(0, 100, width, height / 2)
   circle(width / 2, height / 2, 100);
 }
