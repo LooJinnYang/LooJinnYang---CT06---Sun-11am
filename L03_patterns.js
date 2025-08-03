@@ -4,7 +4,7 @@ let colourValue = 0;
 function setup() {
     createCanvas(1200, 800);
     background(220);
-    noLoop(); // Stops continuous drawing
+    //noLoop(); // Stops continuous drawing
   }
   
 function draw() {
