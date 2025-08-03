@@ -30,7 +30,7 @@ for(let i = 0; i < 5; i++){
     fill(0);
   }
   else {
-    fill()
+    fill(255);
   }
   circle(spacing + i * spacing, 200, 40)
   // colourValue += 1;
