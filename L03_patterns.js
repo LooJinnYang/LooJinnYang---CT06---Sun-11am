@@ -52,6 +52,6 @@ function draw() {
 
 for (let i = 0; i < 5; i++){
 let x = startX + 1 * 30;
-ellipse()
+ellipse(x, height / 2)
 }
 }
