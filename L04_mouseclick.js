@@ -16,3 +16,11 @@ function draw(){
     fill(shapeColour);
     ellipse(200 , 200, 80, 80);
 }
+
+function mousePressed() {
+let shapeColour = 'red';
+}
+
+function mouseReleased() {
+let shapeColour = 'blue';
+}
