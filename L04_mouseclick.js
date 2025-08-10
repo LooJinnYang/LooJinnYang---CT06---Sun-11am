@@ -29,5 +29,5 @@ function setup(){
 function draw(){}
 
 function mousemoved(){
-
+ellipse(mouse)
 }
