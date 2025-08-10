@@ -14,5 +14,5 @@ function setup(){
 
 function draw(){
     fill(shapeColour);
-    ellipse(i * 50 + 50 , i *50 + 50 , 50 , 50);
+    ellipse(200 , 200, 80, 80);
 }
