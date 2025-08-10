@@ -6,7 +6,7 @@ function setup(){
 
 function draw(){
 for (let i = 0; i < 5; i++){
-    let shade = 
+    let shade = 255
     fill(0, shade, 0);
     ellipse(i * 50 + 25,i * 50 + 25,50,50);
 }
