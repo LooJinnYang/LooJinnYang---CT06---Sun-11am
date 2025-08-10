@@ -29,6 +29,6 @@ function setup(){
 function draw(){}
 
 function mouseMoved(){
-fill()
+fill(255, 0, 0)
 circle(mouseX, mouseY, 50)
 }
