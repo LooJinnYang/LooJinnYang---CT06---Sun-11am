@@ -26,3 +26,4 @@ function setup(){
 // shapeColour = 'white'
 // }
 
+function draw(){}
