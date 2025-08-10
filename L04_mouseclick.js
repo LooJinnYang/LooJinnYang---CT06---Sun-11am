@@ -28,6 +28,6 @@ function setup(){
 
 function draw(){}
 
-function mousemoved(){
-ellipse(mouseX, mouseY, 50)
+function mouseMoved(){
+circle(mouseX, mouseY, 50)
 }
