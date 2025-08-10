@@ -29,6 +29,6 @@ function setup(){
 function draw(){}
 
 function mouseMoved(){
-FileList()
+fill()
 circle(mouseX, mouseY, 50)
 }
