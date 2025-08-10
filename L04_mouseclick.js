@@ -13,15 +13,16 @@ function setup(){
 // }
 // }
 
-function draw(){
-    fill(shapeColour);
-    ellipse(width / 2, height / 2, 100, 100);
-}
+// function draw(){
+//     fill(shapeColour);
+//     ellipse(width / 2, height / 2, 100, 100);
+// }
 
-function mousePressed(){
-shapeColour = color(random(255) , random(255) , random(255));
-}
+// function mousePressed(){
+// shapeColour = color(random(255) , random(255) , random(255));
+// }
 
-function mouseReleased(){
-shapeColour = 'white'
-}
+// function mouseReleased(){
+// shapeColour = 'white'
+// }
+
