@@ -18,9 +18,9 @@ function draw(){
 }
 
 function mousePressed(){
-let shapeColour = 'red';
+shapeColour = 'red';
 }
 
 function mouseReleased(){
-let shapeColour = 'blue';
+shapeColour = 'blue';
 }
