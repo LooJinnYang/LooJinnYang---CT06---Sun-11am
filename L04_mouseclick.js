@@ -23,5 +23,5 @@ shapeColour = 'red';
 }
 
 function mouseReleased(){
-shapeColour = 'blue';
+shapeColour = ;
 }
