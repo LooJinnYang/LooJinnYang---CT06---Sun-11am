@@ -54,7 +54,7 @@ function draw() {
 // let x = startX + i * 30;
 // ellipse(x, height / 2, 30, 30)
 // }
-  let startX = 30;
+  let startX = 15;
 
 for (let i = 0; i < 5; i++){
 let x = startX + i * 30;
