@@ -58,12 +58,12 @@ function draw() {
   let startY = (200 - 150) / 2 + 30 / 2;
 
 for (let row = 0; row < 5; row++){
-let rowY = startY + 30 * row
+let rowY = startY + 30 * row;
 }
 
 for (let i = 0; i < 5; i++){
 let x = startX + i * 30;
-ellipse(x, rowY, 30, 30)
+ellipse(x, rowY, 30, 30);
 
 }
 }
