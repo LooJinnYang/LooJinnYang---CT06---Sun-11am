@@ -59,10 +59,10 @@ function draw() {
 
 for (let i = 0; i < 5; i++){
 let y = startY + i * 30;
-ellipse(x, height / 2, 30, 30)
+ellipse(y, height / 2, 30, 30)
 
 for (let row = 0; row < 5; row++){
-let y = startX + row * 30;
+let x = startX + row * 30;
 ellipse(x, height / 2, 30, 30)
 }
 
