@@ -14,7 +14,7 @@ function setup(){
 
 function draw(){
     fill(shapeColour);
-    ellipse(width / 2, 200, 80, 80);
+    ellipse(width / 2, height / 2, 80, 80);
 }
 
 function mousePressed(){
