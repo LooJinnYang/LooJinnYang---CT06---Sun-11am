@@ -62,7 +62,7 @@ let rowY = startY + 30 * row
 }
 
 for (let i = 0; i < 5; i++){
-let y = startY + i * 30;
+let x = startX + i * 30;
 ellipse(width / 2, y, 30, 30)
 
 }
