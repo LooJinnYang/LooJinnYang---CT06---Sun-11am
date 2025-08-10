@@ -17,10 +17,10 @@ function draw(){
     ellipse(200 , 200, 80, 80);
 }
 
-function mousePressed() {
+function mousePressed(){
 let shapeColour = 'red';
 }
 
-function mouseReleased() {
+function mouseReleased(){
 let shapeColour = 'blue';
 }
