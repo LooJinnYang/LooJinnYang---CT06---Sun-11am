@@ -63,8 +63,8 @@ for (let row = 0; row < 5; row++){
 
 for (let i = 0; i < 5; i++){
 
-let x = startX + i * 30;
-ellipse(x, y, 30, 30);
+  let x = startX + i * 30;
+  ellipse(x, y, 30, 30);
 
 }
 }
