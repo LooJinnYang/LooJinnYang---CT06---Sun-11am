@@ -60,7 +60,7 @@ for (let i = 0; i < 5; i++){
 let x = startX + i * 30;
 ellipse(x, height / 2, 30, 30)
 
-for (let row = 0; i < 5; i++){
+for (let row = 0; row < 5; row++){
 let x = startX + i * 30;
 ellipse(x, height / 2, 30, 30)
 }
