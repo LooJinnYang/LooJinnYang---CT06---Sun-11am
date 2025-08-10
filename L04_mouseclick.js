@@ -8,6 +8,6 @@ function draw(){
 for (let i = 0; i < 5; i++){
     let shade = 
     fill(0, shade, 0);
-    ellipse(300,200,200,200);
+    ellipse(300,200,50,500);
 }
 }
