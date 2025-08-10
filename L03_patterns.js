@@ -58,7 +58,7 @@ function draw() {
   let startY = (200 - 150) / 2 + 30 / 2;
 
 for (let row = 0; row < 5; row++){
-let rowY
+let rowY = StartY
 }
 
 for (let i = 0; i < 5; i++){
