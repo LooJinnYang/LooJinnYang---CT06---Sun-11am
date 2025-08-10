@@ -56,6 +56,7 @@ function draw() {
 // }
   let startX = (200 - 150) / 2 + 30 / 2;
   let startY = (200 - 150) / 2 + 30 / 2;
+  
 for (let row = 0; row < 5; row++){
 let x = startX + row * 30;
 ellipse(x, height / 2, 30, 30)
