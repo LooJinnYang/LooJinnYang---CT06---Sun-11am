@@ -5,7 +5,9 @@ function setup(){
 }
 
 function draw(){
-    
+for (let row = 0; row < 5; row++){
+
     fill(255, 0, 0);
     ellipse(300,200,200,200);
+}
 }
