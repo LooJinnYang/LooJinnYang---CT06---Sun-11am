@@ -6,6 +6,6 @@ function setup(){
 }
 
 function mousePressed(){
-let shapeColour = color(random(255), random(255),random(255))
-circleSize = 5
+let shapeColour = color(random(255), random(255),random(255));
+circleSize = 5;
 }
