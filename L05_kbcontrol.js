@@ -32,7 +32,7 @@ function draw(){
     let centerX = width/2
     let centerY = height/2    
 
-    let topLeftX
+    let topLeftX = 
 
     rectSize(topLeftX, topLeftY, rectSize, rectSize)
 }
