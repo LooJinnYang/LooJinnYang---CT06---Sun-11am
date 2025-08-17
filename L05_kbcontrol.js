@@ -5,6 +5,7 @@ function setup(){
 }
 
 function mouseMoved(){
+let 
 fill(hiii)
 circle(mouseX, mouseY, 50)
 }
