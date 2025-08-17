@@ -5,7 +5,7 @@ function setup(){
 }
 
 function mouseMoved(){
-let hiii = ra
+let hiii = ran
 fill(hiii)
 circle(mouseX, mouseY, 50)
 }
