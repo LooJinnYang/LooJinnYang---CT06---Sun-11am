@@ -53,6 +53,7 @@ function keyPressed(){
     let size = random(10, 80);
 
     fill(random(255), random(255), random(255))
+    ellipse()
     }
 }
 
