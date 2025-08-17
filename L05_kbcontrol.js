@@ -4,9 +4,3 @@ function setup(){
     background(220);
 }
 
-function mousePressed(){
-    function mouseMoved(){
-fill(255, 0, 0)
-circle(mouseX, mouseY, 50)
-}
-}
