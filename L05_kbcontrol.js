@@ -10,7 +10,7 @@ function setup(){
 }
 
 function mousePressed(){
-let shapeColour = color(random(255), random(255),random(255));
+shapeColour = color(random(255), random(255),random(255));
 circleSize = 5;
 }
 
