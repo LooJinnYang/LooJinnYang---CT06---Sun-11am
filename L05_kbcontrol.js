@@ -19,3 +19,6 @@
 // ellipse(mouseX, mouseY, circleSize, circleSize);
 // circleSize += 0.5;
 // }
+
+let rectSize = 5
+
