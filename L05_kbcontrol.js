@@ -5,7 +5,7 @@ function setup(){
 }
 
 function mouseMoved(){
-let hiii = Math.rand()
+let hiii = Math.random(256)
 fill(hiii)
 circle(mouseX, mouseY, 50)
 }
