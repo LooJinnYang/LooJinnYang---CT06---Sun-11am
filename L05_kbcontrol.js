@@ -41,3 +41,6 @@
 //     rect(topLeftX , topLeftY , rectSize, rectSize)
 // }
 
+function setup(){
+    
+}
