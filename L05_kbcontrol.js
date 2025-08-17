@@ -11,5 +11,5 @@ circleSize = 5;
 }
 
 function mouseDragged(){
-
+fill
 }
