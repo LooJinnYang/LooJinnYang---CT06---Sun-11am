@@ -5,7 +5,7 @@ function setup(){
     noStroke();
 }
 
-function mouseMoved(){
+function mousePressed(){
 let hiii = Math.random(0,256)
 fill(hiii,hiii,hiii)
 circle(mouseX, mouseY, 50)
