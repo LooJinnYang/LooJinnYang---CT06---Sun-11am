@@ -6,7 +6,7 @@ function setup(){
 }
 
 function mousePressed(){
-let hiii = color(random(255), random(255),random(255))
-fill(hiii,hiii,hiii)
+let S = color(random(255), random(255),random(255))
+fill(shapeColour)
 circle(mouseX, mouseY, 50)
 }
