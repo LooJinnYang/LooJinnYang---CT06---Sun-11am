@@ -30,10 +30,10 @@ function draw(){
     background(220);
 
     let centerX = width/2
-    let centerY = height/2    
+    let centerY = height/2;    
 
-    let topLeftX = centerX - rectSize/2
-    let topLeftY = centerY - rectSize/2
+    let topLeftX = centerX - rectSize/2;
+    let topLeftY = centerY - rectSize/2;
 
 
     rectSize(topLeftX, topLeftY, rectSize, rectSize)
