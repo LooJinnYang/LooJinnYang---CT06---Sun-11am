@@ -4,7 +4,7 @@ function setup(){
     background(220);
 }
 
-function mouseMoved(){
+function mousePressed(){
 fill(255, 0, 0)
 circle(mouseX, mouseY, 50)
 }
