@@ -20,5 +20,8 @@
 // circleSize += 0.5;
 // }
 
-let rectSize = 5
+let rectSize = 50;
 
+function setup(){
+    
+}
