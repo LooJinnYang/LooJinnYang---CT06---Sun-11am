@@ -29,7 +29,8 @@ function setup(){
 function draw(){
     background(220);
 
-    let center
+    let centerX = width/2
+    
 
 
 
