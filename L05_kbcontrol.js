@@ -50,7 +50,8 @@ function setup(){
 function keyPressed(){
     let count = floor(random(5, 21));
     for(let i=0; i<count; i++){
-    let size = random()
+    let size = random(10, 80);
+    
     }
 }
 
