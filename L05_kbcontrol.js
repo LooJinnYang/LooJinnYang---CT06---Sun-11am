@@ -52,7 +52,7 @@ function keyPressed(){
     for(let i=0; i<count; i++){
     let size = random(10, 80);
 
-    FileList()
+    fill()
     }
 }
 
