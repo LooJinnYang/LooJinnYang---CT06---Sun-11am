@@ -48,5 +48,9 @@ function setup(){
 }
 
 function keyPressed(){
-    
+
+}
+
+function(){
+    background(220);
 }
