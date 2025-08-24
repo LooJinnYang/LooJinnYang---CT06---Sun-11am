@@ -4,6 +4,6 @@ background(220);
 }
 
 function draw() {
-rect();
+rect(width/2-);
 
 }
