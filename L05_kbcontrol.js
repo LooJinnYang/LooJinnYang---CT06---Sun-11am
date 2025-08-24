@@ -77,12 +77,12 @@ background(220);
 
 function draw() {
 if (showCircle){
-    showCircle(width / 2, height / 2, 100)
+    showCircle(width / 2, height / 2, 100);
 }
 }
 
 function keyPressed(){
     if (key === 'c'){
-        showCircle = 
+        showCircle = !showCircle;
     }
 }
