@@ -77,6 +77,6 @@ background(220);
 
 function draw() {
 if (showCircle){
-    
+    showCircle(width/)
 }
 }
