@@ -76,7 +76,7 @@ background(220);
 }
 
 function draw() {
-if (showCircle){
+if (showCircle == false){
     circle(width / 2, height / 2, 100);
 }
 }
