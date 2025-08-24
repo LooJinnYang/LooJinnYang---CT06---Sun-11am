@@ -68,7 +68,7 @@
 
 // console.log(a==b);
 
-let 
+let urmom = 35
 function setup() {
 createCanvas(600, 400);
 background(220);
