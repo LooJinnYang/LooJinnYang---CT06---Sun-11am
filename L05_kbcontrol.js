@@ -68,7 +68,7 @@
 
 // console.log(a==b);
 
-let urmom = 35
+let showCircle = false;
 function setup() {
 createCanvas(600, 400);
 background(220);
