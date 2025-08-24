@@ -5,6 +5,7 @@ background(220);
 
 function draw() {
 // // rect(width/2-20,height/2-20,40,40);
+
 //   let startX = (200 - 150) / 2 + 30 / 2;
 //   let startY = (200 - 150) / 2 + 30 / 2;
 
