@@ -114,5 +114,5 @@ function setup(){
 
 function keyPressed(){
     console.log("key:", key)
-    console.log("ke")
+    console.log("keyCode:")
 }
