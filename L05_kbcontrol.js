@@ -68,9 +68,9 @@
 
 // console.log(a==b);
 
-let showCircle = false;
-let showSquare = false;
-let showTriangle = false;
+// let showCircle = false;
+// let showSquare = false;
+// let showTriangle = false;
 
 function setup() {
 createCanvas(600, 600);
