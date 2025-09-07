@@ -113,5 +113,6 @@ function setup(){
 
 
 function keyPressed(){
-    console.log("key:")
+    console.log("key:", key)
+    
 }
