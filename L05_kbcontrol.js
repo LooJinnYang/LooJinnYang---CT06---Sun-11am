@@ -144,7 +144,7 @@ else if (100 <= x <= 200){
     circle(width / 2, height / 2, 50);
 }
 
-else if (){
+else if (x >= 200){
     fill('blue')
     circle(width / 2, height / 2, 50);
 }
