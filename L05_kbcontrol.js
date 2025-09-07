@@ -144,11 +144,6 @@ else if (key == 'r'){
     circle(width / 2, height / 2, 50);
 }
 
-else if (key == 'g'){
-    fill('green')
-    circle(width / 2, height / 2, 50);
-}
-
 else{
     fill('yellow')
     circle(width / 2, height / 2, 50);
