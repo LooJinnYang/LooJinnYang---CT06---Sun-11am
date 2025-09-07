@@ -85,7 +85,7 @@ if (showCircle == true){
 
 background(220);
 if (showSquare == true){
-    React()
+    rect()
 }
 
 
