@@ -106,3 +106,5 @@
 //         showTriangle = !showTriangle;
 // }
 // }
+
+function setup()
