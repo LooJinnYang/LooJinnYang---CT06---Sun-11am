@@ -90,7 +90,7 @@ if (showSquare == true){
 
 
 background(220);
-if (showCircle == true){
+if (showTriangle == true){
     circle(width / 2, height / 2, 100);
 }
 
