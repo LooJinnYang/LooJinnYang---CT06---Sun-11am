@@ -79,19 +79,19 @@ createCanvas(600, 600);
 function draw() {
 background(220);
 
-if (key === 'c'){
+if (key == 'c'){
     circle(width / 2, height / 2, 100);
 }
 }
 
 
-if (key === 's'){
+if (key == 's'){
     rect(width / 2 - 50, height / 2 - 50, 100, 100);
 }
 
 
 
-if (key === 'c'){
+if (key == 'c'){
     triangle(width/2, height/2 - 50, width/2 + 50, height/2 + 50, width/2 - 50, height/2 + 50);
 }
 
