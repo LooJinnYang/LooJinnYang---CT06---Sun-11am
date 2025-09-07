@@ -139,7 +139,7 @@ if (x < 100){
     circle(width / 2, height / 2, 50);
 }
 
-else if (100 <= x <= 200){
+else if (100 <= x < 200){
     fill('green')
     circle(width / 2, height / 2, 50);
 }
