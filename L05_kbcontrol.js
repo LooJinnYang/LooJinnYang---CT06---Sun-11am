@@ -125,7 +125,7 @@ function draw() {
 background(220);
 
 if (keyCode == 38){
-    fill()
+    fill('red')
     circle(width / 2, height / 2, 50);
 }
 
