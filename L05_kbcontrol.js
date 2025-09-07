@@ -70,7 +70,7 @@
 
 let showCircle = false;
 let showSquare = false;
-let show = false;
+let showTriangle = false;
 
 function setup() {
 createCanvas(400, 400);
@@ -84,7 +84,7 @@ if (showCircle == true){
 }
 
 background(220);
-if (showCircle == true){
+if (showSquare == true){
     circle(width / 2, height / 2, 100);
 }
 
