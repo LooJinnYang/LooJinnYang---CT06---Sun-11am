@@ -100,12 +100,13 @@ function keyPressed(){
         showCircle = !showCircle;
     }
 }
-
+function keyPressed(){
     if (key === 's'){
         showSquare = !showSquare;
     }
-
-
+}
+function keyPressed(){
     if (key === 't'){
         showTriangle = !showTriangle;
     }
+}
