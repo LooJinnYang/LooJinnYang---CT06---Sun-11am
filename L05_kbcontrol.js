@@ -135,11 +135,11 @@ background(220);
 // }
 
 if (x < 100){
-    fill('white')
+    fill('red')
     circle(width / 2, height / 2, 50);
 }
 
-else if (key == 'r'){
+else if (100 <= x <= 200){
     fill('red')
     circle(width / 2, height / 2, 50);
 }
