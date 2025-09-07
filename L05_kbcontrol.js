@@ -72,29 +72,29 @@
 // let showSquare = false;
 // let showTriangle = false;
 
-function setup() {
-createCanvas(200, 200);
-}
+// function setup() {
+// createCanvas(200, 200);
+// }
 
-function draw() {
-background(220);
+// function draw() {
+// background(220);
 
-if (key == 'c'){
-    circle(width / 2, height / 2, 50);
-}
-
-
-
-if (key == 's'){
-    rect(width / 2 - 25, height / 2 - 25, 50, 50);
-}
+// if (key == 'c'){
+//     circle(width / 2, height / 2, 50);
+// }
 
 
 
-if (key == 't'){        
-    triangle(width/2, height/2 - 25, width/2 + 25, height/2 + 25, width/2 - 25, height/2 + 25);
-}
-}
+// if (key == 's'){
+//     rect(width / 2 - 25, height / 2 - 25, 50, 50);
+// }
+
+
+
+// if (key == 't'){        
+//     triangle(width/2, height/2 - 25, width/2 + 25, height/2 + 25, width/2 - 25, height/2 + 25);
+// }
+// }
 // function keyPressed(){
 //     if (key === 'c'){
 //         showCircle = !showCircle;
