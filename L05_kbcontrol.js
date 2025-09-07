@@ -134,7 +134,7 @@ background(220);
 //     circle(width / 2, height / 2, 50);
 // }
 
-if (key == 'w'){
+if (x < 100){
     fill('white')
     circle(width / 2, height / 2, 50);
 }
