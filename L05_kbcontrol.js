@@ -139,12 +139,12 @@ if (key == 'w'){
     circle(width / 2, height / 2, 50);
 }
 
-else if (key == 'w'){
+else if (key == 'r'){
     fill("black")
     circle(width / 2, height / 2, 50);
 }
 
-else if (key == 'w'){
+else if (key == 'g'){
     fill('red')
     circle(width / 2, height / 2, 50);
 }
