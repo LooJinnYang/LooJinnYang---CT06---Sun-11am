@@ -91,7 +91,7 @@ if (key == 's'){
 
 
 
-if (key == 't'){
+if (key == 't'){        
     triangle(width/2, height/2 - 25, width/2 + 25, height/2 + 25, width/2 - 25, height/2 + 25);
 }
 }
