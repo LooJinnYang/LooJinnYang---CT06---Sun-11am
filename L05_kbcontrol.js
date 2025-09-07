@@ -145,12 +145,12 @@ else if (key == 'r'){
 }
 
 else if (key == 'g'){
-    fill('red')
+    fill('green')
     circle(width / 2, height / 2, 50);
 }
 
 else{
-    fill("black")
+    fill("yellow")
     circle(width / 2, height / 2, 50);
 }
 }
