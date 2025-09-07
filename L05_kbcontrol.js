@@ -107,5 +107,5 @@ function keyPressed(){
 
 
     if (key === 'c'){
-        show = !showCircle;
+        showTriangle = !showTriangle;
     }
