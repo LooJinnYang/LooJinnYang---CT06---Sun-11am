@@ -85,7 +85,7 @@ if (showCircle == true){
 
 background(220);
 if (showSquare == true){
-    circle(width / 2, height / 2, 100);
+    React()
 }
 
 
