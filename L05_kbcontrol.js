@@ -73,7 +73,7 @@
 // let showTriangle = false;
 
 function setup() {
-createCanvas(600, 600);
+createCanvas(200, 200);
 }
 
 function draw() {
