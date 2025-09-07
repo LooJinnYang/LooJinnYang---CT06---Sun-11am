@@ -135,12 +135,12 @@ background(220);
 // }
 
 if (key == 'w'){
-    fill('red')
+    fill('')
     circle(width / 2, height / 2, 50);
 }
 
 else if (key == 'r'){
-    fill("black")
+    fill("red")
     circle(width / 2, height / 2, 50);
 }
 
