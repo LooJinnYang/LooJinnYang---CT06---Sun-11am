@@ -85,7 +85,7 @@ if (showCircle == true){
 
 
 if (showSquare == true){
-    rect(width / 2 - 50, height / 2 - 50, 100, 100)
+    rect(width / 2 - 50, height / 2 - 50, 100, 100);
 }
 
 
@@ -103,6 +103,6 @@ function keyPressed(){
         showSquare = !showSquare;
     }
     if (key === 'c') {
-        showTriangle = !showTriangle
+        showTriangle = !showTriangle;
 }
 }
