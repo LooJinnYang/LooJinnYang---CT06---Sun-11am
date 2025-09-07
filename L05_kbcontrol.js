@@ -140,7 +140,7 @@ if (x < 100){
 }
 
 else if (100 <= x <= 200){
-    fill('red')
+    fill('green')
     circle(width / 2, height / 2, 50);
 }
 
