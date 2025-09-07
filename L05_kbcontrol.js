@@ -85,7 +85,7 @@ if (key === 'c'){
 }
 
 
-if (showSquare == true){
+if (key === 's'){
     rect(width / 2 - 50, height / 2 - 50, 100, 100);
 }
 
