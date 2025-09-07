@@ -149,7 +149,7 @@ else if (key == 'w'){
     circle(width / 2, height / 2, 50);
 }
 
-else){
+else{
     fill("black")
     circle(width / 2, height / 2, 50);
 }
