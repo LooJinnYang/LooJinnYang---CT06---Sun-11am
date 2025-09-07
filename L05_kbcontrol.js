@@ -102,10 +102,10 @@ function keyPressed(){
 }
 
     if (key === 'c'){
-        showSquare = !showS;
+        showSquare = !showSquare;
     }
 
 
     if (key === 'c'){
-        showCircle = !showCircle;
+        show = !showCircle;
     }
