@@ -133,7 +133,7 @@ background(220);
 //     fill("black")
 //     circle(width / 2, height / 2, 50);
 // }
-
+x = mouse
 if (x < 100){
     fill('red')
     circle(width / 2, height / 2, 50);
