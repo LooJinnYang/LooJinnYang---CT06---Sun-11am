@@ -91,19 +91,19 @@ if (key === 's'){
 
 
 
-if (showTriangle == true){
+if (key === 'c'){
     triangle(width/2, height/2 - 50, width/2 + 50, height/2 + 50, width/2 - 50, height/2 + 50);
 }
 
 
-function keyPressed(){
-    if (key === 'c'){
-        showCircle = !showCircle;
-    }
-    if(key === 's'){
-        showSquare = !showSquare;
-    }
-    if (key === 'c') {
-        showTriangle = !showTriangle;
-}
-}
+// function keyPressed(){
+//     if (key === 'c'){
+//         showCircle = !showCircle;
+//     }
+//     if(key === 's'){
+//         showSquare = !showSquare;
+//     }
+//     if (key === 'c') {
+//         showTriangle = !showTriangle;
+// }
+// }
