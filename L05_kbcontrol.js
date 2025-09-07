@@ -134,21 +134,22 @@ background(220);
 //     circle(width / 2, height / 2, 50);
 // }
 
-if (keyCode == 38){
+if (key == 'w'){
     fill('red')
     circle(width / 2, height / 2, 50);
+}
 
-else if (keyCode == 40){
+else if (key == 'w'){
     fill("black")
     circle(width / 2, height / 2, 50);
 }
 
-if (keyCode == 38){
+else if (key == 'w'){
     fill('red')
     circle(width / 2, height / 2, 50);
 }
 
-if (keyCode == 40){
+else){
     fill("black")
     circle(width / 2, height / 2, 50);
 }
