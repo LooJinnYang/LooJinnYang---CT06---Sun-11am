@@ -81,8 +81,29 @@ if (showCircle == true){
 }
 }
 
+background(220);
+if (showCircle == true){
+    circle(width / 2, height / 2, 100);
+}
+
+
+background(220);
+if (showCircle == true){
+    circle(width / 2, height / 2, 100);
+}
+
+
 function keyPressed(){
     if (key === 'c'){
         showCircle = !showCircle;
     }
 }
+
+    if (key === 'c'){
+        showCircle = !showCircle;
+    }
+
+
+    if (key === 'c'){
+        showCircle = !showCircle;
+    }
