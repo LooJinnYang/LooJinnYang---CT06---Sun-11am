@@ -102,7 +102,7 @@ function keyPressed(){
 }
 
     if (key === 'c'){
-        showCircle = !showCircle;
+        showSquare = !showS;
     }
 
 
