@@ -91,7 +91,7 @@ if (showSquare == true){
 
 background(220);
 if (showTriangle == true){
-    triangle(width / 2, height / 2, 100);
+    triangle(width);
 }
 
 
