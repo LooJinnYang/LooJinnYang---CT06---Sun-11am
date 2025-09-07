@@ -101,11 +101,11 @@ function keyPressed(){
     }
 }
 
-    if (key === 'c'){
+    if (key === 's'){
         showSquare = !showSquare;
     }
 
 
-    if (key === 'c'){
+    if (key === 't'){
         showTriangle = !showTriangle;
     }
