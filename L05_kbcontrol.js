@@ -107,12 +107,12 @@
 // }
 // }
 
-function setup(){
+// function setup(){
 
-}
+// }
 
 
-function keyPressed(){
-    console.log("key:", key);
-    console.log("Keycode:", keyCode);
-}
+// function keyPressed(){
+//     console.log("key:", key);
+//     console.log("Keycode:", keyCode);
+// }
