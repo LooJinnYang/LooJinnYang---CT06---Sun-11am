@@ -124,13 +124,14 @@ createCanvas(200, 200);
 function draw() {
 background(220);
 
-if (keyCode == 38){
-    fill('red')
-    circle(width / 2, height / 2, 50);
-}
+// if (keyCode == 38){
+//     fill('red')
+//     circle(width / 2, height / 2, 50);
+// }
 
-if (keyCode == 40){
-    fill("black")
-    circle(width / 2, height / 2, 50);
-}
+// if (keyCode == 40){
+//     fill("black")
+//     circle(width / 2, height / 2, 50);
+// }
+
 }
