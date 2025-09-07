@@ -98,15 +98,17 @@ if (showTriangle == true){
 function keyPressed(){
     if (key === 'c'){
         showCircle = !showCircle;
-    }
-}
-function keyPressed(){
-    if (key === 's'){
+    if(key === 's'){
         showSquare = !showSquare;
     }
+    if (key === 'c') {
+
+} else if (key === 's') {
+
+} else if (key === 't') {
+
+} else {
+
 }
-function keyPressed(){
-    if (key === 't'){
-        showTriangle = !showTriangle;
-    }
+}
 }
