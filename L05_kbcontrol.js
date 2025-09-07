@@ -69,6 +69,8 @@
 // console.log(a==b);
 
 let showCircle = false;
+let showSquare = false;
+let show = false;
 
 function setup() {
 createCanvas(400, 400);
