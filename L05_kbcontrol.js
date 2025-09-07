@@ -124,7 +124,7 @@ createCanvas(200, 200);
 function draw() {
 background(220);
 
-if (key == 'c'){
+if (keyCode == 38){
     circle(width / 2, height / 2, 50);
 }
 
