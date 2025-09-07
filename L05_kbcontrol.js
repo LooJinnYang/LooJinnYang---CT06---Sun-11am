@@ -118,7 +118,7 @@
 // }
 
 function setup() {
-createCanvas(200, 200);
+createCanvas(300, 300);
 }
 
 function draw() {
