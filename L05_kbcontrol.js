@@ -86,7 +86,7 @@ if (key == 'c'){
 
 
 if (key == 's'){
-    rect(width / 2 - 25, height / 2 - 25, 100, 100);
+    rect(width / 2 - 25, height / 2 - 25, 50, 50);
 }
 
 
