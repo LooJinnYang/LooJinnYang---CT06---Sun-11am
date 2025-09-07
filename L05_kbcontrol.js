@@ -82,7 +82,7 @@ background(220);
 if (key == 'c'){
     circle(width / 2, height / 2, 100);
 }
-}
+
 
 
 if (key == 's'){
@@ -94,8 +94,7 @@ if (key == 's'){
 if (key == 't'){
     triangle(width/2, height/2 - 25, width/2 + 25, height/2 + 25, width/2 - 25, height/2 + 25);
 }
-
-
+}
 // function keyPressed(){
 //     if (key === 'c'){
 //         showCircle = !showCircle;
