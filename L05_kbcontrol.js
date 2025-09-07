@@ -103,6 +103,6 @@ function keyPressed(){
         showSquare = !showSquare;
     }
     if (key === 'c') {
-
+        showTriangle = !show
 }
 }
