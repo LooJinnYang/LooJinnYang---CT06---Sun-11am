@@ -130,7 +130,7 @@ if (keyCode == 38){
 }
 
 if (keyCode == 40){
-    fill(red)
+    fill("black")
     circle(width / 2, height / 2, 50);
 }
 }
