@@ -37,13 +37,13 @@ let soundEffect;
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
-    soundEffect = loadSound('assets/pop.mp3')
+    soundEffect = loadSound('assets/pop.mp3');
 }
 
 function setup(){
-
+createC
 }
 
 function draw(){
-    
+
 }
