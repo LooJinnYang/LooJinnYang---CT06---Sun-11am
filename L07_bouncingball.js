@@ -12,5 +12,17 @@ if(keyisDown(RIGHT_ARROW)){
     x += 2;
 }
 
+if(keyisDown(RIGHT_ARROW)){
+    x += 2;
+}
+
+if(keyisDown(RIGHT_ARROW)){
+    x += 2;
+}
+
+if(keyisDown(RIGHT_ARROW)){
+    x += 2;
+}
+
     circle(x, y, 50)
 }
