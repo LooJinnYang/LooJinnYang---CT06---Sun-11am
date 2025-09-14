@@ -36,7 +36,7 @@ let staticImage;
 let soundEffect;
 let x = 200;
 let y = 200;
-let speed = ;
+let speed = 40;
 let imgwidth = 80;
 let imgheight = 80;
 
