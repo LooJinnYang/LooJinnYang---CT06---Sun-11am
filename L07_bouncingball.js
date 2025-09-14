@@ -25,7 +25,7 @@ function draw(){
         y -= 2;
     }
 
-    if(keyIsDown(DOWN_ARROW)){
+    if(keyIasDown(DOWN_ARROW)){
         y += 2;
     }
 
