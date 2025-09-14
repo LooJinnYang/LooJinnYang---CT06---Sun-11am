@@ -92,8 +92,8 @@ function draw(){
 //     soundEffect.pause();
 // }
 
-noStroke
-
+noStroke();
+CSSNumericValue()
 
 
 
