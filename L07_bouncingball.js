@@ -50,37 +50,38 @@ function setup(){
 }
 
 function draw(){
-    background('lightblue');
+//     background('lightblue');
 
-    x = constrain(x, 0, width - imgwidth);
-    y = constrain(y, 0, height - imgheight);
+//     x = constrain(x, 0, width - imgwidth);
+//     y = constrain(y, 0, height - imgheight);
 
-    if(keyIsDown(RIGHT_ARROW)){
-       x += speed;
-    }
+//     if(keyIsDown(RIGHT_ARROW)){
+//        x += speed;
+//     }
 
-    if(keyIsDown(LEFT_ARROW)){
-       x -= speed;
-    }
+//     if(keyIsDown(LEFT_ARROW)){
+//        x -= speed;
+//     }
 
-    if(keyIsDown(UP_ARROW)){
-        y -= speed;
-    }
+//     if(keyIsDown(UP_ARROW)){
+//         y -= speed;
+//     }
 
-    if(keyIsDown(DOWN_ARROW)){
-        y += speed;
-    }
-    image(staticImage, x, y, imgwidth, imgheight);
-}
+//     if(keyIsDown(DOWN_ARROW)){
+//         y += speed;
+//     }
+//     image(staticImage, x, y, imgwidth, imgheight);
+// }
 
-function keyPressed(){
-    if(keyCode == 32){
-        imgwidth = 40;
-        soundEffect.play();
-    }
-}
+// function keyPressed(){
+//     if(keyCode == 32){
+//         imgwidth = 40;
+//         soundEffect.play();
+//     }
+// }
 
-function keyReleased(){
-    imgwidth = 80;
-    soundEffect.pause();
+// function keyReleased(){
+//     imgwidth = 80;
+//     soundEffect.pause();
+// }
 }
