@@ -45,6 +45,8 @@
 //     soundEffect = loadSound('assets/pop.mp3');
 // }
 
+let x;
+let y;
 
 
 
