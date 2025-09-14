@@ -9,7 +9,9 @@ function draw(){
     background(220);
 
 
-x
+x = c
+
+
 if(keyisDown(RIGHT_ARROW)){
     x += speed;
 }
