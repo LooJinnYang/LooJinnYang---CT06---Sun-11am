@@ -37,5 +37,5 @@ let soundEffect;
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
-    soundEffect = loadSound
+    soundEffect = loadSound('assets/pop')
 }
