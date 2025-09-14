@@ -70,5 +70,5 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y += speed;
     }
-    image(staticImage, x, y, imgwidth, 80);
+    image(staticImage, x, y, imgwidth, imgheight);
 }
