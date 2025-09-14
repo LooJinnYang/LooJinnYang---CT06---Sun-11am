@@ -92,7 +92,7 @@ function draw(){
 //     soundEffect.pause();
 // }
 x += speedX
-
+ += speedY
 
 noStroke();
 circle(x, y, size);
