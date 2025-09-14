@@ -73,6 +73,7 @@ function draw(){
     image(staticImage, x, y, imgwidth, imgheight);
 
     if(keyCode == 32){
+        width = width / 2
         
     }
 }
