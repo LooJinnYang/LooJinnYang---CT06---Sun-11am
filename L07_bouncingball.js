@@ -12,7 +12,7 @@ if(keyisDown(RIGHT_ARROW)){
     x += 2;
 }
 
-if(keyisDown(RIGHT_ARROW)){
+if(keyisDown(LEFTOW)){
     x += 2;
 }
 
