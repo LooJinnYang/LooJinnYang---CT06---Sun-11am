@@ -84,4 +84,16 @@ function draw(){
 //     imgwidth = 80;
 //     soundEffect.pause();
 // }
+
+
+
+
+
+
+
+
+
+
+
+
 }
