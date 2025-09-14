@@ -13,11 +13,11 @@ function draw(){
     x = constrain(x, 25, width - 25);
     y = constrain(y, 25, height - 25);
 
-    if(keyisDown(RIGHT_ARROW)){
+    if(keyIsDown(RIGHT_ARROW)){
        x += 2;
     }
 
-    if(keyisDown(LEFT_ARROW)){
+    if(keyIsDown(LEFT_ARROW)){
        x -= 2;
     }
 
