@@ -32,3 +32,5 @@
 //     circle(x, y, 50);
 // }
 
+let staticImage;
+let soundEffect;
