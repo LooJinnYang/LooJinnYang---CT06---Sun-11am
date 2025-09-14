@@ -52,10 +52,6 @@ function setup(){
 function draw(){
     background('lightblue');
 
-    if(keyCode == 32){
-    width = width / 2
-    
-    }
     x = constrain(x, 0, width - imgwidth);
     y = constrain(y, 0, height - imgheight);
 
@@ -76,3 +72,8 @@ function draw(){
     }
     image(staticImage, x, y, imgwidth, imgheight);
 }
+
+    if(keyCode == 32){
+    width = width / 2
+    
+    }
