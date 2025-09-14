@@ -92,7 +92,7 @@ function draw(){
 //     soundEffect.pause();
 // }
 
-
+noStroke
 
 
 
