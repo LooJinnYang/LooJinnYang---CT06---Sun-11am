@@ -8,7 +8,7 @@ function setup(){
 function draw(){
     background(220);
 
-if()
+if(keyisDown())
 
     circle(x, y, 50)
 }
