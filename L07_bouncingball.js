@@ -47,7 +47,8 @@
 
 let x;
 let y;
-
+let size = 50;
+let speedX = 
 
 
 function setup(){
