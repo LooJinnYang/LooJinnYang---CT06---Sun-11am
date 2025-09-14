@@ -2,9 +2,9 @@
 // let y = 200;
 // let speed = 2;
 
-function setup(){
-    createCanvas(400, 400);
-}
+// function setup(){
+//     createCanvas(400, 400);
+// }
 
 // function draw(){
 //     background(220);
@@ -31,3 +31,4 @@ function setup(){
 
 //     circle(x, y, 50);
 // }
+
