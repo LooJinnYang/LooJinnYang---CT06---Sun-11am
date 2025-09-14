@@ -40,4 +40,10 @@ function preload(){
     soundEffect = loadSound('assets/pop.mp3')
 }
 
-function setup()
+function setup(){
+
+}
+
+function draw(){
+    
+}
