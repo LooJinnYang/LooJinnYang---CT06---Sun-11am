@@ -76,6 +76,6 @@ function draw(){
 function keyPressed(){
     if(keyCode == 32){
     imgwidth = 40;
-    
+    sound.Effect
     }
 }
