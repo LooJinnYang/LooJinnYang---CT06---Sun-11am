@@ -17,11 +17,11 @@ if(keyisDown(LEFT_ARROW)){
     x -= 2;
 }
 
-if(keyisDown(_ARROW)){
+if(keyisDown(UP_ARROW)){
     x += 2;
 }
 
-if(keyisDown(RIGHT_ARROW)){
+if(keyisDown(_ARROW)){
     x += 2;
 }
 
