@@ -92,6 +92,8 @@ function draw(){
 //     soundEffect.pause();
 // }
 
+
+
 noStroke();
 circle(x, y, size);
 
