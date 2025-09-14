@@ -62,11 +62,11 @@ function draw(){
     }
 
     if(keyIsDown(UP_ARROW)){
-        y -= sppe;
+        y -= speed;
     }
 
     if(keyIsDown(DOWN_ARROW)){
-        y += 2;
+        y += speed;
     }
     image(staticImage, x, y, 80, 80);
 }
