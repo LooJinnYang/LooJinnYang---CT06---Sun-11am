@@ -26,7 +26,7 @@ if(keyisDown(UP_ARROW)){
 }
 
 if(keyisDown(DOWN_ARROW)){
-    y += speed;
+    y -= speed;
 }
 
     circle(x, y, 50)
