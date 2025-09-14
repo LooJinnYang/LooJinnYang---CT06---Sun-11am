@@ -71,4 +71,8 @@ function draw(){
         y += speed;
     }
     image(staticImage, x, y, imgwidth, imgheight);
+
+    if(keyCode == 32){
+        
+    }
 }
