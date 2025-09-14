@@ -82,5 +82,5 @@ function keyPressed(){
 
 function keyReleased(){
     imgwidth = 80;
-    soundEffect()
+    soundEffect().pause();
 }
