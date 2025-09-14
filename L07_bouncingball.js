@@ -38,6 +38,8 @@ let x = 200;
 let y = 200;
 let speed = 2;
 
+
+
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
     soundEffect = loadSound('assets/pop.mp3');
