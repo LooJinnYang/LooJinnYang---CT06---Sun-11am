@@ -95,7 +95,7 @@ background(220);
 x += speedX;
 y += speedY;
 
-if(x)
+if(x - size/2 <=)
 
 noStroke();
 circle(x, y, size);
