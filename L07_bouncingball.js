@@ -21,11 +21,11 @@ function draw(){
        x -= 2;
     }
 
-    if(keyisDown(UP_ARROW)){
+    if(keyIsDown(UP_ARROW)){
         y -= 2;
     }
 
-    if(keyisDown(DOWN_ARROW)){
+    if(keyIsDown(DOWN_ARROW)){
         y += 2;
     }
 
