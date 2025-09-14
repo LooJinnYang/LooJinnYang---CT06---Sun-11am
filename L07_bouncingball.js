@@ -91,6 +91,8 @@ function draw(){
 //     imgwidth = 80;
 //     soundEffect.pause();
 // }
+    background(220);
+
 x += speedX
 y += speedY
 
