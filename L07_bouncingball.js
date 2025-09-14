@@ -52,8 +52,8 @@ function setup(){
 function draw(){
     background('lightblue');
 
-    x = constrain(x, speed, width - imgwidth - speed);
-    y = constrain(y, speed, height - imgheight - speed);
+    x = constrain(x, 0, width - imgwidth - speed);
+    y = constrain(y, 0, height - imgheight - speed);
 
     if(keyIsDown(RIGHT_ARROW)){
        x += speed;
