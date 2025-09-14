@@ -92,8 +92,8 @@ function draw(){
 // }
 background(220);
 
-x += speedX
-y += speedY
+x += speedX;
+y += speedY;
 
 noStroke();
 circle(x, y, size);
