@@ -9,7 +9,7 @@ function draw(){
     background(220);
 
 if(keyisDown(RIGHT_ARROW)){
-    x += 2;
+    x += speed;
 }
 
 if(keyisDown(LEFT_ARROW)){
@@ -22,7 +22,7 @@ if(keyisDown(UP_ARROW)){
 }
 
 if(keyisDown(DOWN_ARROW)){
-    y += 2;
+    y += speed;
 }
 
     circle(x, y, 50)
