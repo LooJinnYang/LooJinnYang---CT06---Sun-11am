@@ -22,11 +22,11 @@ function draw(){
     }
 
     if(keyisDown(UP_ARROW)){
-        y += 2;
+        y -= 2;
     }
 
     if(keyisDown(DOWN_ARROW)){
-        y -= 2;
+        y += 2;
     }
 
     circle(x, y, 50);
