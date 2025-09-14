@@ -26,9 +26,9 @@ if(keyisDown(UP_ARROW)){
     y += 2;
 }
 
-if(keyisDown(DOWN_ARROW)){
+    if(keyisDown(DOWN_ARROW)){
     y -= 2;
 }
 
-circle(x, y, 50);
+    circle(x, y, 50);
 }
