@@ -75,7 +75,7 @@ function draw(){
 
 function keyPressed(){
     if(keyCode == 32){
-    width = width / 2
+    imgwidth = 40;
     
     }
 }
