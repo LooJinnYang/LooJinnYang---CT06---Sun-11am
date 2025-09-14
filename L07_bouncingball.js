@@ -41,7 +41,7 @@ function preload(){
 }
 
 function setup(){
-createC
+    createCanvas
 }
 
 function draw(){
