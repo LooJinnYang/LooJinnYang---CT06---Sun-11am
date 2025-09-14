@@ -79,3 +79,5 @@ function keyPressed(){
         sound.Effect.play();
     }
 }
+
+function keyReleased()
