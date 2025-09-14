@@ -8,6 +8,8 @@ function setup(){
 function draw(){
     background(220);
 
+
+x
 if(keyisDown(RIGHT_ARROW)){
     x += speed;
 }
