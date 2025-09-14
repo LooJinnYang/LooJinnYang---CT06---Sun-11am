@@ -50,7 +50,7 @@ let y = 200;
 let size = 50;
 let speedX = 1;
 let speedY = 1;
-let shapeColour = color()
+let shapeColour = color('white')
 
 function setup(){
     createCanvas(600, 400);
