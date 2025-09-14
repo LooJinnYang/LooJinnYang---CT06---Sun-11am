@@ -54,6 +54,7 @@ function draw(){
 
     if(keyCode == 32){
     width = width / 2
+    
     }
     x = constrain(x, 0, width - imgwidth);
     y = constrain(y, 0, height - imgheight);
