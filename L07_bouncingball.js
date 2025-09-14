@@ -9,7 +9,7 @@ function draw(){
     background(220);
 
 
-x = constrain(x, 25,)
+x = constrain(x, 25, width - 25)
 
 
 if(keyisDown(RIGHT_ARROW)){
