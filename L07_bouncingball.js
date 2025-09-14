@@ -1,5 +1,5 @@
-let x = 200
-let y = 200
+let x = 200;
+let y = 200;
 let speed = 2;
 function setup(){
     createCanvas(400, 400);
@@ -14,11 +14,11 @@ if(keyisDown(RIGHT_ARROW)){
 
 if(keyisDown(LEFT_ARROW)){
 
-    x -= 2;
+    x -= speed;
 }
 
 if(keyisDown(UP_ARROW)){
-    y += 2;
+    y += speed;
 }
 
 if(keyisDown(DOWN_ARROW)){
