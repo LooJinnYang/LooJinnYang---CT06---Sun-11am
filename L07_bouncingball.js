@@ -94,6 +94,7 @@ background(220);
 
 x += speedX;
 y += speedY;
+shapeColour = color(random(255), random(255),random(255));
 
 if(x - size/2 <= 0 || x + size/2 >= width){
     speedX *= -1;
@@ -104,6 +105,7 @@ if(y - size/2 <= 0 || y + size/2 >= height){
 }
 
 noStroke();
+fill()
 circle(x, y, size);
 
 }
