@@ -38,7 +38,7 @@ let x = 200;
 let y = 200;
 let speed = 2;
 let imgwidth = 80;
-let imgwidth = 80;
+let imgheight = 80;
 
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
@@ -52,7 +52,7 @@ function setup(){
 function draw(){
     background('lightblue');
 
-    x = constrain(x, 0, width - 80);
+    x = constrain(x, 0, width - imgwidtyh);
     y = constrain(y, 0, height - 80);
 
     if(keyIsDown(RIGHT_ARROW)){
