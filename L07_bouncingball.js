@@ -21,7 +21,7 @@ if(keyisDown(UP_ARROW)){
     x += 2;
 }
 
-if(keyisDown(_ARROW)){
+if(keyisDown(DOWN_ARROW)){
     x += 2;
 }
 
