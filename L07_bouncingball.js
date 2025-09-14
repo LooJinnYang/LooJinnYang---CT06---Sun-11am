@@ -36,5 +36,5 @@ let staticImage;
 let soundEffect;
 
 function preload(){
-    staticImage
+    staticImage = loadImage
 }
