@@ -53,6 +53,7 @@ let speedY = 20;
 
 function setup(){
     createCanvas(600, 400);
+    background(220);
 }
 
 function draw(){
@@ -90,7 +91,6 @@ function draw(){
 //     imgwidth = 80;
 //     soundEffect.pause();
 // }
-background(220);
 
 x += speedX;
 y += speedY;
