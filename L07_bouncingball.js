@@ -96,7 +96,7 @@ x += speedX;
 y += speedY;
 
 if(x - size/2 <= 0 || x + size/2 >= width){
-    speedX = speedX * -1
+    speedX *= -1
 }
 
 if(y - size/2 <= 0 || y + size/2 >= height){
