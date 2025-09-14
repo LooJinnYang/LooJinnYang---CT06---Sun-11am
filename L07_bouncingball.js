@@ -50,8 +50,8 @@ function setup(){
 function draw(){
     background('lightblue');
 
-    x = constrain(x, 80, width - 40);
-    y = constrain(y, 0, height - 40);
+    x = constrain(x, 0, width - 80);
+    y = constrain(y, 0, height - 80);
 
     if(keyIsDown(RIGHT_ARROW)){
        x += speed;
