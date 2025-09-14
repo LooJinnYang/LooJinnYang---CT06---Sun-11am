@@ -93,14 +93,6 @@ function draw(){
 // }
 
 noStroke();
-circle(x, y, )
-
-
-
-
-
-
-
-
+circle(x, y, size);
 
 }
