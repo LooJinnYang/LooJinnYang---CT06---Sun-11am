@@ -100,7 +100,7 @@ if(x - size/2 <= 0 || x + size/2 >= width){
 }
 
 if(y - size/2 <= 0 || y + size/2 >= height){
-    speedX = speedX * -1
+    speedY = speedY * -1
 }
 
 noStroke();
