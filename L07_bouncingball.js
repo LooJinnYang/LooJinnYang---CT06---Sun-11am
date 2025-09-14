@@ -35,4 +35,6 @@
 let staticImage;
 let soundEffect;
 
-function preload()
+function preload(){
+    staticImage
+}
