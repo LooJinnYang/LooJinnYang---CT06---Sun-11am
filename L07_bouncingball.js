@@ -73,7 +73,9 @@ function draw(){
     image(staticImage, x, y, imgwidth, imgheight);
 }
 
+function keyPressed(){
     if(keyCode == 32){
     width = width / 2
     
     }
+}
