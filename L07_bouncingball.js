@@ -18,7 +18,6 @@ function draw(){
     }
 
     if(keyisDown(LEFT_ARROW)){
-
        x -= 2;
     }
 
