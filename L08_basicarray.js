@@ -71,5 +71,5 @@ function setup(){
     textSize(24)
     text("Loo Jinn Yang", 50, 50)
     text("300", 50, 100)
-    text("Loo Jinn Yang", 50, 150)
+    text("Sleeping", 50, 150)
 }
