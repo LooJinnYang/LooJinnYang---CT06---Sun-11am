@@ -99,32 +99,12 @@ y += speedY;
 if(x - size/2 <= 0 || x + size/2 >= width){
     speedX *= -1;
     shapeColour = color(random(255), random(255),random(255));
-    function keyPressed(){
-    if(keyCode === UP_ARROW){
-        speedX *= 1.2
-        speedY *= 1.2
-    }
-    if(keyCode === DOWN_ARROW){
-        speedX *= 1.2
-        speedY *= 1.2
-    }
-}
+    
 }
 
 if(y - size/2 <= 0 || y + size/2 >= height){
     speedY *= -1;
     shapeColour = color(random(255), random(255),random(255));
-    
-    function keyPressed(){
-    if(keyCode === UP_ARROW){
-        speedX *= 1.2
-        speedY *= 1.2
-    }
-    if(keyCode === DOWN_ARROW){
-        speedX *= 1.2
-        speedY *= 1.2
-    }
-}
 }
 
 noStroke();
