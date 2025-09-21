@@ -65,3 +65,7 @@
 // rect(x - size/2, height/2 - size/2, size, size);
 // }
 
+function setup(){
+    createCanvas(600, 400);
+    // background(220);
+}
