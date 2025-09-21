@@ -19,7 +19,7 @@ if(x <= 0 || x + size >= width){
     shapeColour = color(random(255), random(255),random(255));
 }
 
-if(y - size/2 <= 0 || y + size/2 >= height){
+if(y <= 0 || y + size/2 >= height){
     speedY *= -1;
     shapeColour = color(random(255), random(255),random(255));
 }
