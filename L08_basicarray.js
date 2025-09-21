@@ -69,5 +69,6 @@ function setup(){
     createCanvas(600, 400);
     background(220);
     textSize(24)
-    text("Loo Jinn Yang")
+    text("Loo Jinn Yang", 50, 50)
+    text
 }
