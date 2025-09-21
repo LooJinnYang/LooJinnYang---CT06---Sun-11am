@@ -54,7 +54,6 @@ let shapeColour = 255;
 
 function setup(){
     createCanvas(600, 400);
-    background(220);
 }
 
 function draw(){
