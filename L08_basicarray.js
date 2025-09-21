@@ -1,5 +1,5 @@
-let x = 325;
-let y = 225;
+let x = 300;
+// let y = 200;
 let size = 50;
 let speedX = 5;
 // let speedY = 1;
@@ -62,5 +62,5 @@ if(x - size/2 <= 0 || x + size/2 >= width){
 
 noStroke();
 fill(shapeColour)
-rect(x, y, size, size);
+rect(x - size/2, height/2 - size/2, size, size);
 }
