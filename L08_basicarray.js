@@ -70,8 +70,6 @@ function setup(){
     background(220);
     textSize(24);
     text("Loo Jinn Yang", 50, 50);
-    textSize(50);
     text("300", 50, 100);
-    textSize(100);
     text("Sleeping", 50, 150);
 }
