@@ -110,5 +110,10 @@ noStroke();
 fill(shapeColour)
 circle(x, y, size);
 
-
+function keyPressed(){
+    if(keyCode == 32){
+        imgwidth = 40;
+        soundEffect.play();
+    }
+}
 }
