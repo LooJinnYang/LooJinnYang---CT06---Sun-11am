@@ -14,7 +14,7 @@ function draw(){
 x += speedX;
 y += speedY;
 
-if(x - size/2 <= 0 || x + size/2 >= width){
+if(x <= 0 || x + size/2 >= width){
     speedX *= -1;
     shapeColour = color(random(255), random(255),random(255));
 }
