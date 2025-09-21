@@ -117,7 +117,7 @@ function keyPressed(){
         speedY *= 5
     }
     if(keyCode === DOWN_ARROW){
-        speedX *= 
-        speedY *= 0.8
+        speedX *= 0.2
+        speedY *= 0.2
     }
 }
