@@ -111,9 +111,8 @@ fill(shapeColour)
 circle(x, y, size);
 
 function keyPressed(){
-    if(keyCode === UP_){
-        imgwidth = 40;
-        soundEffect.play();
+    if(keyCode === UP_ARROW){
+
     }
 }
 }
