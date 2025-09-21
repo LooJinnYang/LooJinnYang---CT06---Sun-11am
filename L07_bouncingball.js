@@ -118,6 +118,6 @@ function keyPressed(){
     }
     if(keyCode === DOWN_ARROW){
         speedX *= 0.8
-        speedY *= -1.2
+        speedY *= 0.8
     }
 }
