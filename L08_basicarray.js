@@ -70,5 +70,6 @@ function setup(){
     background(220);
     textSize(24)
     text("Loo Jinn Yang", 50, 50)
+    text("Loo Jinn Yang", 50, 100)
     text("Loo Jinn Yang", 50, 50)
 }
