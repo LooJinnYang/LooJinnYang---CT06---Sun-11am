@@ -1,8 +1,8 @@
 let x = 300;
-let y = 200;
+// let y = 200;
 let size = 50;
 let speedX = 1;
-let speedY = 1;
+// let speedY = 1;
 let shapeColour = 255;
 
 function setup(){
@@ -11,20 +11,56 @@ function setup(){
 }
 
 function draw(){
-x += speedX;
-y += speedY;
+    background(220);
+//     background('lightblue');
 
-if(x <= 0 || x + size >= width){
+//     x = constrain(x, 0, width - imgwidth);
+//     y = constrain(y, 0, height - imgheight);
+
+//     if(keyIsDown(RIGHT_ARROW)){
+//        x += speed;
+//     }
+
+//     if(keyIsDown(LEFT_ARROW)){
+//        x -= speed;
+//     }
+
+//     if(keyIsDown(UP_ARROW)){
+//         y -= speed;
+//     }
+
+//     if(keyIsDown(DOWN_ARROW)){
+//         y += speed;
+//     }
+//     image(staticImage, x, y, imgwidth, imgheight);
+// }
+
+// function keyPressed(){
+//     if(keyCode == 32){
+//         imgwidth = 40;
+//         soundEffect.play();
+//     }
+// }
+
+// function keyReleased(){
+//     imgwidth = 80;
+//     soundEffect.pause();
+// }
+
+x += speedX;
+// y += speedY;
+
+if(x - size/2 <= 0 || x + size/2 >= width){
     speedX *= -1;
     shapeColour = color(random(255), random(255),random(255));
 }
 
-if(y <= 0 || y + size >= height){
-    speedY *= -1;
-    shapeColour = color(random(255), random(255),random(255));
-}
+// if(y - size/2 <= 0 || y + size/2 >= height){
+//     speedY *= -1;
+//     shapeColour = color(random(255), random(255),random(255));
+// }
 
 noStroke();
 fill(shapeColour)
-circle(x, y, size);
+rect(x - size/2, height/2 - size/2, size, size);
 }
