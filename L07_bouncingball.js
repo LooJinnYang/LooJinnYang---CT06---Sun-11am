@@ -58,6 +58,7 @@ function setup(){
 }
 
 function draw(){
+    background(220);
 //     background('lightblue');
 
 //     x = constrain(x, 0, width - imgwidth);
