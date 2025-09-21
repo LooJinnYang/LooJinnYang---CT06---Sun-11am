@@ -112,7 +112,8 @@ circle(x, y, size);
 
 function keyPressed(){
     if(keyCode === UP_ARROW){
-        speedX *=
+        speedX *= 1.2
+                speedX *= 1.2
     }
 }
 }
