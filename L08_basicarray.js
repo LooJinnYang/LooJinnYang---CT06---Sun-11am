@@ -1,5 +1,5 @@
-let x = ;
-let y = 200;
+let x = 275;
+let y = 175;
 let size = 50;
 let speedX = 5;
 // let speedY = 1;
