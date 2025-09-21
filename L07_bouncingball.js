@@ -108,5 +108,5 @@ if(y - size/2 <= 0 || y + size/2 >= height){
 
 noStroke();
 fill(shapeColour)
-circle(x, y, size);
+rect(x, y, size);
 }
