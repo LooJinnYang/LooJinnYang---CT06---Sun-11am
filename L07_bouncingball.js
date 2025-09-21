@@ -110,14 +110,3 @@ noStroke();
 fill(shapeColour)
 circle(x, y, size);
 }
-
-function keyPressed(){
-    if(keyCode === UP_ARROW){
-        speedX *= 5
-        speedY *= 5
-    }
-    if(keyCode === DOWN_ARROW){
-        speedX *= 0.2
-        speedY *= 0.2
-    }
-}
