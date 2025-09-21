@@ -115,5 +115,9 @@ function keyPressed(){
         speedX *= 1.2
         speedY *= 1.2
     }
+    if(keyCode === UP_ARROW){
+        speedX *= 1.2
+        speedY *= 1.2
+    }
 }
 }
