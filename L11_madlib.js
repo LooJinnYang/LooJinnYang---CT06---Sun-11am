@@ -126,7 +126,7 @@
 //     arr2.push(displayText5);
 // }
 
-let textBox1 = "e.g. dog";
+let textBox1;
 let textBox2;
 let textBox3;
 let textBox4;
@@ -134,8 +134,7 @@ let textBox5;
 
 let arr = ["Enter a noun:","Enter a verb:","Enter an adjective:","Enter an adverb:","Enter a place:"];
 let button;
-let displayText1 = "e.g. dog";
-let displayText2, displayText3, displayText4, displayText5 ;
+let displayText1, displayText2, displayText3, displayText4, displayText5 ;
 let arr2 = [];
 
 function setup(){
@@ -182,12 +181,17 @@ function draw(){
 
 function display(){
     displayText1 = textBox1.value();
+    arr2.push(displayText1);
 
-    displayText2 = textBox2.value();
+    displayText2 = "Verb: " + textBox2.value();
+    arr2.push(displayText2);
 
-    displayText3 = textBox3.value();
+    displayText3 = "Adjective: " + textBox3.value();
+    arr2.push(displayText3);
 
-    displayText4 = textBox4.value();
+    displayText4 = "Adverb: " + textBox4.value();
+    arr2.push(displayText4);
 
-    displayText5 = textBox5.value();
+    displayText5 = "Place: " + textBox5.value();
+    arr2.push(displayText5);
 }
