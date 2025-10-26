@@ -142,7 +142,7 @@ function setup() {
 
   textSize(16);
   fill(0);
-  text("Enter a noun:", 20, 40);
+  text("Enter a noun:", 16, 40);
   nounInput = createInput();
   nounInput.position(150, 25);
 
