@@ -134,7 +134,7 @@ let textBox5;
 
 let arr = ["Enter a noun:","Enter a verb:","Enter an adjective:","Enter an adverb:","Enter a place:"];
 let button;
-let displayText1 = "e.g. ";
+let displayText1 = "e.g. dog";
 let displayText2, displayText3, displayText4, displayText5 ;
 let arr2 = [];
 
