@@ -126,7 +126,7 @@
 //     arr2.push(displayText5);
 // }
 
-let textBox1 = "e.";
+let textBox1;
 let textBox2;
 let textBox3;
 let textBox4;
