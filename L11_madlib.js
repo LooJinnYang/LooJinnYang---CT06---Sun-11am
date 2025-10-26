@@ -182,8 +182,7 @@ function draw(){
 function display(){
     displayText1 = textBox1.value();
 
-    displayText2 = "Verb: " + textBox2.value();
-    arr2.push(displayText2);
+    displayText2 = textBox2.value();
 
     displayText3 = "Adjective: " + textBox3.value();
     arr2.push(displayText3);
