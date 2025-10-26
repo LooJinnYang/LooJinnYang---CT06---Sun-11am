@@ -154,11 +154,11 @@ function setup() {
   adjectiveInput = createInput();
   adjectiveInput.position(150, 105);
 
-  text("Enter an adverb:", 20, 160);
+  text("Enter an adverb:", 16, 160);
   adverbInput = createInput();
   adverbInput.position(150, 145);
 
-  text("Enter a place:", 20, 200);
+  text("Enter a place:", 16, 200);
   placeInput = createInput();
   placeInput.position(150, 185);
 
