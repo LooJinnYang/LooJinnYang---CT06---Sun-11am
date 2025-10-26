@@ -182,7 +182,7 @@ function draw() {
   text("Enter a place:", 16, 200);
 
   // Display story at the bottom
-  textSize(18);
+  textSize(16);
   fill(50, 0, 100);
   textWrap(WORD);
   text(storyOutput, 20, 280, 560);
