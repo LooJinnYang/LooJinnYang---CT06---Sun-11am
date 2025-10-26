@@ -188,5 +188,5 @@ function display(){
 
     displayText4 = textBox4.value();
 
-    displayText5 = "Place: " + textBox5.value();
+    displayText5 = textBox5.value();
 }
