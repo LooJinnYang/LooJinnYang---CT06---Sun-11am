@@ -186,8 +186,7 @@ function display(){
 
     displayText3 = textBox3.value();
 
-    displayText4 = "Adverb: " + textBox4.value();
+    displayText4 = textBox4.value();
 
     displayText5 = "Place: " + textBox5.value();
-    arr2.push(displayText5);
 }
