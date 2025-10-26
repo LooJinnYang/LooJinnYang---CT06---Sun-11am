@@ -175,9 +175,9 @@ function draw() {
 
   // Re-draw labels
   fill(0);
-  text("Enter a noun:", 20, 40);
-  text("Enter a verb:", 20, 80);
-  text("Enter an adjective:", 20, 120);
+  text("Enter a noun:", 16, 40);
+  text("Enter a verb:", 16, 80);
+  text("Enter an adjective:", 16, 120);
   text("Enter an adverb:", 20, 160);
   text("Enter a place:", 20, 200);
 
