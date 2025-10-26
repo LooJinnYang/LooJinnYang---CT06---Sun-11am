@@ -146,11 +146,11 @@ function setup() {
   nounInput = createInput();
   nounInput.position(150, 25);
 
-  text("Enter a verb:", 20, 80);
+  text("Enter a verb:", 16, 80);
   verbInput = createInput();
   verbInput.position(150, 65);
 
-  text("Enter an adjective:", 20, 120);
+  text("Enter an adjective:", 16, 120);
   adjectiveInput = createInput();
   adjectiveInput.position(150, 105);
 
