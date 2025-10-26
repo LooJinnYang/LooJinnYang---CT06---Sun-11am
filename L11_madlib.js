@@ -180,7 +180,7 @@ function draw(){
 }
 
 function display(){
-    displayText1 = textBox1.value();
+    displayText1 = "Noun: " + textBox1.value();
     arr2.push(displayText1);
 
     displayText2 = "Verb: " + textBox2.value();
