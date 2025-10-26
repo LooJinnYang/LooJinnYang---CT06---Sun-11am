@@ -140,7 +140,7 @@ function setup() {
   createCanvas(600, 400);
   background(240);
 
-  textSize(16);
+  textSize(12);
   fill(0);
   text("Enter a noun:", 20, 40);
   nounInput = createInput();
