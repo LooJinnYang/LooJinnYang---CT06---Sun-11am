@@ -178,8 +178,8 @@ function draw() {
   text("Enter a noun:", 16, 40);
   text("Enter a verb:", 16, 80);
   text("Enter an adjective:", 16, 120);
-  text("Enter an adverb:", 20, 160);
-  text("Enter a place:", 20, 200);
+  text("Enter an adverb:", 16, 160);
+  text("Enter a place:", 16, 200);
 
   // Display story at the bottom
   textSize(18);
