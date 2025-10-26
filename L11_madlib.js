@@ -126,32 +126,87 @@
 //     arr2.push(displayText5);
 // }
 
+let nounInput, verbInput, adjectiveInput, adverbInput, placeInput;
+let storyButton;
+let storyOutput;
+
 let templates = [
   "Once upon a time, there was a {adjective} {noun} who loved to {verb} {adverb} in {place}.",
   "In {place}, a {adjective} {noun} decided to {verb} {adverb}.",
   "The {noun} went to {place} and {adverb} {verb} with great {adjective} skill!"
 ];
 
-// When the button is clicked
-function generateStory() {
-  // 1. Get user input values
-  let noun = document.getElementById("noun").value;
-  let verb = document.getElementById("verb").value;
-  let adjective = document.getElementById("adjective").value;
-  let adverb = document.getElementById("adverb").value;
-  let place = document.getElementById("place").value;
+function setup() {
+  createCanvas(600, 400);
+  background(240);
 
-  // 2. Pick a random template
-  let randomIndex = Math.floor(Math.random() * templates.length);
+  textSize(16);
+  fill(0);
+  text("Enter a noun:", 20, 40);
+  nounInput = createInput();
+  nounInput.position(150, 25);
+
+  text("Enter a verb:", 20, 80);
+  verbInput = createInput();
+  verbInput.position(150, 65);
+
+  text("Enter an adjective:", 20, 120);
+  adjectiveInput = createInput();
+  adjectiveInput.position(150, 105);
+
+  text("Enter an adverb:", 20, 160);
+  adverbInput = createInput();
+  adverbInput.position(150, 145);
+
+  text("Enter a place:", 20, 200);
+  placeInput = createInput();
+  placeInput.position(150, 185);
+
+  storyButton = createButton("Generate Story");
+  storyButton.position(150, 230);
+  storyButton.mousePressed(generateStory);
+
+  storyOutput = "";
+}
+
+function draw() {
+  // Refresh canvas background
+  background(240);
+
+  // Re-draw labels
+  fill(0);
+  text("Enter a noun:", 20, 40);
+  text("Enter a verb:", 20, 80);
+  text("Enter an adjective:", 20, 120);
+  text("Enter an adverb:", 20, 160);
+  text("Enter a place:", 20, 200);
+
+  // Display story at the bottom
+  textSize(18);
+  fill(50, 0, 100);
+  textWrap(WORD);
+  text(storyOutput, 20, 280, 560);
+}
+
+function generateStory() {
+  // Get input values
+  let noun = nounInput.value();
+  let verb = verbInput.value();
+  let adjective = adjectiveInput.value();
+  let adverb = adverbInput.value();
+  let place = placeInput.value();
+
+  // Pick random template
+  let randomIndex = floor(random(templates.length));
   let story = templates[randomIndex];
 
-  // 3. Replace placeholders
+  // Replace placeholders
   story = story.replace("{noun}", noun)
                .replace("{verb}", verb)
                .replace("{adjective}", adjective)
                .replace("{adverb}", adverb)
                .replace("{place}", place);
 
-  // 4. Display on the page or canvas
-  document.getElementById("storyOutput").innerText = story;
+  // Update the displayed story
+  storyOutput = story;
 }
