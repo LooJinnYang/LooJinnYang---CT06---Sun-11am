@@ -126,72 +126,32 @@
 //     arr2.push(displayText5);
 // }
 
-let textBox1;
-let textBox2;
-let textBox3;
-let textBox4;
-let textBox5;
+let templates = [
+  "Once upon a time, there was a {adjective} {noun} who loved to {verb} {adverb} in {place}.",
+  "In {place}, a {adjective} {noun} decided to {verb} {adverb}.",
+  "The {noun} went to {place} and {adverb} {verb} with great {adjective} skill!"
+];
 
-let arr = ["Enter a noun:","Enter a verb:","Enter an adjective:","Enter an adverb:","Enter a place:"];
-let button;
-let displayText1, displayText2, displayText3, displayText4, displayText5 ;
-let arr2 = [];
+// When the button is clicked
+function generateStory() {
+  // 1. Get user input values
+  let noun = document.getElementById("noun").value;
+  let verb = document.getElementById("verb").value;
+  let adjective = document.getElementById("adjective").value;
+  let adverb = document.getElementById("adverb").value;
+  let place = document.getElementById("place").value;
 
-function setup(){
-    createCanvas(600, 600);
+  // 2. Pick a random template
+  let randomIndex = Math.floor(Math.random() * templates.length);
+  let story = templates[randomIndex];
 
-    textBox1 = createInput();
-    textBox1.position(width/2-textBox1.width/2, 50);
-    textBox1.size(150, 30);
+  // 3. Replace placeholders
+  story = story.replace("{noun}", noun)
+               .replace("{verb}", verb)
+               .replace("{adjective}", adjective)
+               .replace("{adverb}", adverb)
+               .replace("{place}", place);
 
-    textBox2 = createInput();
-    textBox2.position(width/2-textBox2.width/2, 100);
-    textBox2.size(150, 30);
-
-    textBox3 = createInput();
-    textBox3.position(width/2-textBox3.width/2, 150);
-    textBox3.size(150, 30);
-
-    textBox4 = createInput();
-    textBox4.position(width/2-textBox4.width/2, 200);
-    textBox4.size(150, 30);
-
-    textBox5 = createInput();
-    textBox5.position(width/2-textBox5.width/2, 250);
-    textBox5.size(150, 30);
-
-
-    button = createButton('Generate Story');
-    button.position(width/2 - button.width / 2, 300);
-    button.mousePressed(display)
-}
-
-function draw(){
-    background(220);
-
-    textSize(15)
-    for(let i=0; i<arr.length; i++){
-        text(arr[i], 50, 70 + i * 50);
-    }
-
-    for(let i = 0; i < arr2.length; i++){
-        text(arr2[i], 50, 350 + i*50);
-    }
-}
-
-function display(){
-    displayText1 = "Noun: " + textBox1.value();
-    arr2.push(displayText1);
-
-    displayText2 = "Verb: " + textBox2.value();
-    arr2.push(displayText2);
-
-    displayText3 = "Adjective: " + textBox3.value();
-    arr2.push(displayText3);
-
-    displayText4 = "Adverb: " + textBox4.value();
-    arr2.push(displayText4);
-
-    displayText5 = "Place: " + textBox5.value();
-    arr2.push(displayText5);
+  // 4. Display on the page or canvas
+  document.getElementById("storyOutput").innerText = story;
 }
