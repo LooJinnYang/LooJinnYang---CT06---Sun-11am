@@ -131,9 +131,9 @@ let storyButton;
 let storyOutput;
 
 let templates = [
-  "Once upon a time, there was a {adjective} {noun} who loved to {verb} {adverb} in {place}.",
-  "In {place}, a {adjective} {noun} decided to {verb} {adverb}.",
-  "The {noun} went to {place} and {adverb} {verb} with great {adjective} skill!"
+  "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+  "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+  "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
 ];
 
 function setup() {
