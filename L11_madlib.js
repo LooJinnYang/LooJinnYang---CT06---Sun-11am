@@ -133,7 +133,7 @@ let storyOutput;
 let templates = [
 "The {adjective} {noun} decided to {verb} {adverb} at the {place}.",
   "One day, a {adjective} {noun} wanted to {verb} {adverb} in {place}.",
-  "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+  "Did you hear about the {adjective} {noun} that tried to {verb} {adverb} near {place}?"
 ];
 
 function setup() {
