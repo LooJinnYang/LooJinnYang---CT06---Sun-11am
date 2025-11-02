@@ -201,7 +201,7 @@ function generateStory() {
   let story = templates[randomIndex];
 
   // Replace placeholders
-  story = story.replace("{noun}", "dog")
+  story = story.replace("{noun}", noun)
                .replace("{verb}", verb)
                .replace("{adjective}", adjective)
                .replace("{adverb}", adverb)
