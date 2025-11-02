@@ -231,7 +231,7 @@ let places = ["park", "moon", "beach", "school", "mountain"];
 
 function setup() {
   createCanvas(600, 400);
-  background(220);
+  background(240);
 
   textSize(16);
   fill(0);
