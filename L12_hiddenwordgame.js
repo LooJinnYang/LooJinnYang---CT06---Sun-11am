@@ -50,11 +50,6 @@ function setup() {
   storyButton.position(150, 230);
   storyButton.mousePressed(generateStory);
 
-  // Add "Random All" button
-  randomButton = createButton("Random All");
-  randomButton.position(270, 230);
-  randomButton.mousePressed(randomAll);
-
   storyOutput = "";
 }
 
