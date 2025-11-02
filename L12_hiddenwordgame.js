@@ -11,7 +11,8 @@ let button;
 function setup() {
   createCanvas(600, 400);
 
-  textBox
+  textBox = createInput();
+  textBox.position()
 }
 
 function draw() {
