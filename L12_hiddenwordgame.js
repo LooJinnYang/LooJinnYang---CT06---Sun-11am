@@ -15,13 +15,13 @@ function setup() {
   textBox.position(width/2 - textBox.width/2, 200);
 
   button = createButton('Guess');
-  button.position(width/2 - textBox.width/2 + textBox.width + 30, 200)
+  button.position(width/2 - textBox.width/2 + textBox.width + 30, 200);
   button.mousePressed(display);
 }
 
 function draw() {
 
-    background(220)
+    background(220);
     textAlign(CENTER, CENTER);
     textSize(24);
     text("Guess the Word!", width/2, 50);
