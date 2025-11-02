@@ -28,3 +28,5 @@ function draw() {
     text("Attempts: " + attempts, width/2, 100);
     text("Hint: " + randWord, width/2, 150);
 }
+
+function display()
