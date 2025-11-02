@@ -7,18 +7,7 @@ let words = [
 let storyButton, randomButton;
 let storyOutput;
 
-let templates = [
-  "The {adjective} {noun} decided to {verb} {adverb} at the {place}.",
-  "One day, a {adjective} {noun} wanted to {verb} {adverb} in {place}.",
-  "Did you hear about the {adjective} {noun} that tried to {verb} {adverb} near {place}?"
-];
 
-// Arrays of predefined words
-let nouns = ["dog", "teacher", "robot", "pirate", "alien"];
-let verbs = ["jump", "dance", "sleep", "run", "code"];
-let adjectives = ["happy", "angry", "funny", "brave", "sleepy"];
-let adverbs = ["quickly", "loudly", "gracefully", "angrily", "silently"];
-let places = ["park", "moon", "beach", "school", "mountain"];
 
 function setup() {
   createCanvas(600, 400);
