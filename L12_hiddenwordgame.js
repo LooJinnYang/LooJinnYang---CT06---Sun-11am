@@ -3,43 +3,26 @@ let words = [
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
 
-    let nounInput, verbInput, adjectiveInput, adverbInput, placeInput;
-let storyButton, randomButton;
-let storyOutput;
 
 
+let words = [
+    "elephant", "backpack", "keyboard", "hospital", "sunlight", "raincoat", "notebook", "shoulder", 
+    "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
+    "pineapple", "furniture", "telephone", "lighthouse"];
 
 function setup() {
   createCanvas(600, 400);
   background(240);
 
-  textSize(16);
-  fill(0);
-  text("Enter a noun:", 16, 40);
-  nounInput = createInput();
-  nounInput.position(150, 25);
-
-  storyButton = createButton("Generate Story");
-  storyButton.position(150, 230);
-  storyButton.mousePressed(generateStory);
-
-  storyOutput = "";
 }
 
 function draw() {
-  background(240);
 
-  fill(0);
-  text("Enter a noun:", 16, 40);
-  text("Enter a verb:", 16, 80);
-  text("Enter an adjective:", 16, 120);
-  text("Enter an adverb:", 16, 160);
-  text("Enter a place:", 16, 200);
-
-  textSize(16);
-  fill(50, 0, 100);
-  textWrap(WORD);
-  text(storyOutput, 20, 280, 560);
+    textAlign(CENTER, CENTER)
+    textSize(24)
+    text("Guess the Word!", width/2, 50)
+    text("Attempts: " + attempts)
+    text("Hint: " + randWord)
 }
 
 function generateStory() {
