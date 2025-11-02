@@ -30,22 +30,6 @@ function setup() {
   nounInput = createInput();
   nounInput.position(150, 25);
 
-  text("Enter a verb:", 16, 80);
-  verbInput = createInput();
-  verbInput.position(150, 65);
-
-  text("Enter an adjective:", 16, 120);
-  adjectiveInput = createInput();
-  adjectiveInput.position(150, 105);
-
-  text("Enter an adverb:", 16, 160);
-  adverbInput = createInput();
-  adverbInput.position(150, 145);
-
-  text("Enter a place:", 16, 200);
-  placeInput = createInput();
-  placeInput.position(150, 185);
-
   storyButton = createButton("Generate Story");
   storyButton.position(150, 230);
   storyButton.mousePressed(generateStory);
