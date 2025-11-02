@@ -5,6 +5,7 @@ let words = [
 
 let attempts = 0;
 let randWord = "";
+let textBox
 
 function setup() {
   createCanvas(600, 400);
