@@ -20,6 +20,7 @@ function setup() {
 
 function draw() {
 
+    background(220)
     textAlign(CENTER, CENTER);
     textSize(24);
     text("Guess the Word!", width/2, 50);
