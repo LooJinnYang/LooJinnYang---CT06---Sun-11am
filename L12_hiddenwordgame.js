@@ -20,9 +20,9 @@ function setup() {
 
 function draw() {
 
-    textAlign(CENTER, CENTER)
-    textSize(24)
-    text("Guess the Word!", width/2, 50)
-    text("Attempts: " + attempts, width/2, 100)
-    text("Hint: " + randWord, width/2, 150)
+    textAlign(CENTER, CENTER);
+    textSize(24);
+    text("Guess the Word!", width/2, 50);
+    text("Attempts: " + attempts, width/2, 100);
+    text("Hint: " + randWord, width/2, 150);
 }
