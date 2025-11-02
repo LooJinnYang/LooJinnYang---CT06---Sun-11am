@@ -20,7 +20,7 @@ function setup() {
   button.mousePressed(display);
 
   randWord = random(words);
-  randWord = 
+  randWord = randWord[00]
 }
 
 function draw() {
