@@ -29,4 +29,6 @@ function draw() {
     text("Hint: " + randWord, width/2, 150);
 }
 
-function display()
+function display(){
+    
+}
